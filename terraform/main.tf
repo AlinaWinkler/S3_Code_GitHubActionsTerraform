@@ -11,8 +11,8 @@ terraform {
     storage_account_name = "cgmsgtf"
     container_name       = "tfstateazdevops"
     key                  = "alina.tfstate"
-   }
- }
+  }
+}
 
 provider "azurerm" {
   features {}
